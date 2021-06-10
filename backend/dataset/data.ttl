@@ -1,0 +1,640 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:pemain;
+    data:id  "1";
+    data:nama "Bogdan Mladenovic";
+
+    data:age "23";
+    data:fromClub "fk rad belgrad";
+    data:toClub "gil vicente fc";
+    data:season "2019/2020";
+ 
+   data:fee "£45.00m";
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/363295-1596787902.jpg?lm=1";
+    .
+data:2 rdf:type data:pemain;
+data:id  "2";
+    data:nama "Thomas Partey";
+  
+    data:age "27";
+    data:toClub  "Arsenal FC";
+    data:fromClub "Atletico Madrid";
+    data:season "2019/2020";
+    data:fee "£45.00m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/230784-1447152950.jpg?lm=1";
+    .
+data:3 rdf:type data:pemain;
+data:id  "3";
+    data:nama "Gabriel";
+  
+    data:age "22";
+    data:toClub  "Arsenal FC";
+    data:fromClub "LOSC Lille";
+    data:season "2019/2020";
+    data:fee "£23.40m";
+ 
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/435338-1484828988.jpg?lm=1";
+    .
+data:4 rdf:type data:pemain;
+    
+    data:id  "4";
+    data:nama "willian";
+    data:posisi "Right Winger";
+    data:age "27";
+    data:toClub  "Arsenal FC";
+    data:fromClub "Chealse";
+    data:season "2019/2020";
+     data:fee "free";
+  
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:5 rdf:type data:pemain;
+data:id  "5";
+    data:nama "Ollie Watkins";
+
+    data:age "24";
+    data:toClub  "Aston villa";
+    data:fromClub "brendford";
+    data:season "2019/2020";
+     data:fee "£27.72m";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/324358-1538466436.jpg?lm=1";
+    .
+data:6 rdf:type data:pemain;
+    data:id  "6";
+    data:nama "Bertrand Traorore";
+   
+    data:age "25";
+    data:toClub  "Aston villa";
+    data:fromClub "Olympique Lyon";
+    data:season "2019/2020";
+     data:fee "£16.56m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/131996-1479888033.jpg?lm=1";
+    .
+data:7 rdf:type data:pemain;
+    data:id  "7";
+    data:nama "Emiliano MartÃ­nez";
+  
+    data:age "28";
+    data:toClub  "Aston villa";
+    data:fromClub "arsenal";
+    data:season "2019/2020";
+     data:fee "£15.00m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/111873-1547721671.jpg?lm=1";
+    .
+data:8 rdf:type data:pemain;
+    data:id  "8";
+    data:nama "Matty Cash";
+  
+    data:age "23";
+    data:toClub  "Aston villa";
+    data:fromClub "Nottm Forest";
+    data:season "2019/2020";
+     data:fee "£14.18m";
+    
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/425334-1541149402.JPG?lm=1";
+    .
+data:9 rdf:type data:pemain;
+    data:id  "9";
+    data:nama "Kai Havertz";
+  
+    data:age "21";
+    data:toClub  "Chealse";
+    data:fromClub "Bay. Leverkusen";
+    data:season "2019/2020";
+     data:fee "£72.00m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/309400-1620646226.jpg?lm=1";
+    .
+data:10 rdf:type data:pemain;
+    data:id  "10";
+    data:nama "Timo Werner";
+ 
+    data:age "24";
+    data:toClub  "Chealse";
+    data:fromClub "RB Leipzig";
+    data:season "2019/2020";
+     data:fee "£47.70m";
+    
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/170527-1471002206.jpg?lm=1";
+    .
+data:11 rdf:type data:pemain;
+    data:id  "11";
+    data:nama "Ben Chilwell";
+ 
+    data:age "23";
+    data:toClub  "Chealse";
+    data:fromClub "Leicester";
+    data:season "2019/2020";
+     data:fee "£45.18m";
+    
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/316125-1620647738.jpg?lm=1";
+    .
+data:12 rdf:type data:pemain;
+    data:id  "12";
+    data:nama "Hakim Ziyech";
+   
+    data:age "27";
+    data:toClub  "Chealse";
+    data:fromClub "Ajax";
+    data:season "2019/2020";
+     data:fee "£36.00m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/217111-1497885283.jpg?lm=1";
+    .
+data:13 rdf:type data:pemain;
+    data:id  "13";
+    data:nama "Leroy sane";
+ 
+    data:age "24";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Man City";
+    data:season "2019/2020";
+     data:fee "£40.50m";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/192565-1609919571.jpg?lm=1";
+    .
+data:14 rdf:type data:pemain;
+    
+    data:id  "14";
+    data:nama "Leroy sane";
+ 
+    data:age "24";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Man City";
+    data:season "2019/2020";
+     data:fee "£40.50m";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/192565-1609919571.jpg?lm=1";
+    .
+data:15 rdf:type data:pemain;
+    data:id  "15";
+    data:nama "Marc Roca";
+    data:posisi "Defensive Midfield";  data:age "23";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Espanyol";
+    data:season "2019/2020";
+     data:fee "£8.10m";
+ 
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/336869-1490690148.jpg?lm=1";
+    .
+data:16 rdf:type data:pemain;
+    data:id  "16";
+    data:nama "Bouna Sarr";
+
+    data:age "28";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Marseille";
+    data:season "2019/2020";
+     data:fee "£7.20m";
+ 
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/190685-1601919527.jpg?lm=1";
+    .
+data:17 rdf:type data:pemain;
+    data:id  "17";
+    data:nama "Douglas Costa";
+ 
+    data:age "30";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Juventus";
+    data:season "2019/2020";
+     data:fee "loan";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/75615-1537176773.jpg?lm=1";
+    .
+data:18 rdf:type data:pemain;
+    data:id  "18";
+    data:nama "Tiago Dantas";
+  
+    data:age "19";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Benfica";
+    data:season "2019/2020";
+     data:fee "loan";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/429987-1537443733.jpg?lm=1";
+    .
+data:19 rdf:type data:pemain;
+    data:id  "19";
+    data:nama "Emre Can";
+  
+    data:age "26";
+    data:toClub  "Borussia Dortmund";
+    data:fromClub "Juventus";
+    data:season "2019/2020";
+     data:fee "£22.50m";
+ 
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/119296-1567162394.jpg?lm=1";
+    .
+data:20 rdf:type data:pemain;
+data:id  "20";
+    data:nama "Jude Bellingham";
+   
+    data:age "17";
+    data:toClub  "Borussia Dortmund";
+    data:fromClub "Brimingham";
+    data:season "2019/2020";
+     data:fee "£20.70m";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/581678-1603353524.jpg?lm=1";
+    .
+data:21 rdf:type data:pemain;
+    data:id  "21";
+    data:nama "Thomas Meunier";
+ 
+    data:age "26";
+    data:toClub  "Borussia Dortmund";
+    data:fromClub "Paris SG";
+    data:season "2019/2020";
+     data:fee "free";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/100986-1523352221.jpg?lm=1";
+    .
+data:22 rdf:type data:pemain;
+    data:id  "22";
+    data:nama "Reinier";
+   
+    data:age "18";
+    data:toClub  "Borussia Dortmund";
+    data:fromClub "Real Madrid";
+    data:season "2019/2020";
+     data:fee "loan";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/627226-1611760579.jpg?lm=1";
+    .
+data:23 rdf:type data:pemain;
+    data:id  "23";
+    data:nama "Hee-chan Hwang";
+
+    data:age "24";
+    data:toClub  "RB Leipzig";
+    data:fromClub "RB Salzburg";
+    data:season "2019/2020";
+     data:fee "£8.10m";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/292246-1613997961.jpg?lm=1";
+    .
+data:24 rdf:type data:pemain;
+    data:id  "24";
+    data:nama "Hee-chan Hwang";
+  
+    data:age "24";
+    data:toClub  "RB Leipzig";
+    data:fromClub "RB Salzburg";
+    data:season "2019/2020";
+     data:fee "£8.10m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/292246-1613997961.jpg?lm=1";
+    .
+data:25 rdf:type data:pemain;
+    data:id  "25";
+    data:nama "josep Martinez";
+  
+    data:age "22";
+    data:toClub  "RB Leipzig";
+    data:fromClub "UD Las Palmas";
+    data:season "2019/2020";
+     data:fee "£2.25m";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/388516-1578494970.png?lm=1";
+    .
+data:26 rdf:type data:pemain;
+    data:id  "26";
+    data:nama "Justin Kluivert";
+ 
+    data:age "21";
+    data:toClub  "RB Leipzig";
+    data:fromClub "AS Roma";
+    data:season "2019/2020";
+     data:fee "loan";
+ 
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/330659-1596107153.jpg?lm=1";
+    .
+data:27 rdf:type data:pemain;
+    data:id  "27";
+    data:nama "Lazar Samardzic";
+    
+    data:age "18";
+    data:toClub  "RB Leipzig";
+    data:fromClub "Hertha BSC U19";
+    data:season "2019/2020";
+     data:fee "£450Th.";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/528833-1610285895.jpg?lm=1";
+    .
+data:28 rdf:type data:pemain;
+    data:id  "28";
+    data:nama "Patrik Schick";
+  
+    data:age "24";
+    data:toClub  "Bayer 04 Leverkusen";
+    data:fromClub "AS Roma";
+    data:season "2019/2020";
+     data:fee "£23.85m";
+   
+   
+    data:urlFoto "https://www.transfermarkt.com/patrik-schick/profil/spieler/242086";
+    .
+data:29 rdf:type data:pemain;
+    data:id  "29";
+    data:nama "Santiago Arias";
+  
+    data:age "28";
+    data:toClub  "Bayer 04 Leverkusen";
+    data:fromClub "Atletico Madrid";
+    data:season "2019/2020";
+     data:fee "loan";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/120443-1615893101.jpg?lm=1";
+    .
+data:30 rdf:type data:pemain;
+    data:id  "30";
+    data:nama "Lennart Grill";
+   
+    data:age "21";
+    data:toClub  "Bayer 04 Leverkusen";
+    data:fromClub "1.FC K'lautern";
+    data:season "2019/2020";
+     data:fee "£1.80m";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/309397-1615892682.jpg?lm=1";
+    .
+data:31 rdf:type data:pemain;
+    data:id  "31";
+    data:nama "Ayman Azhil";
+ 
+    data:age "19";
+    data:toClub  "Bayer 04 Leverkusen";
+    data:fromClub "Leverkusen U19";
+    data:season "2019/2020";
+     data:fee "-";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/452068-1598872118.jpg?lm=1";
+    .
+data:32 rdf:type data:pemain;
+    data:id  "32";
+    data:nama "Florian Wirtz";
+  
+    data:age "17";
+    data:toClub  "Leverkusen U19";
+    data:fromClub "AS Roma";
+    data:season "2019/2020";
+     data:fee "-";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/598577-1601640348.jpg?lm=1";
+    .
+data:33 rdf:type data:pemain;
+    data:id  "33";
+    data:nama "Mauro Icardi";
+
+    data:age "27";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "Inter";
+    data:season "2019/2020";
+     data:fee "£45.00m";
+
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:34 rdf:type data:pemain;
+    data:id  "34";
+    data:nama "Sergio Rico";
+ 
+    data:age "27";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "Sevilla";
+    data:season "2019/2020";
+     data:fee "£45.00m";
+
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/207302-1447240436.jpg?lm=1";
+    .
+data:35 rdf:type data:pemain;
+    data:id  "35";
+    data:nama "Danilo Pereira";
+
+    data:age "29";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "FC Porto";
+    data:season "2019/2020";
+     data:fee "loan";
+    
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/141050-1542106029.png?lm=1";
+    .
+data:36 rdf:type data:pemain;
+    data:id  "36";
+    data:nama "Sergio Rico";
+
+    data:age "27";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "Sevilla";
+    data:season "2019/2020";
+     data:fee "£45.00m";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/207302-1447240436.jpg?lm=1";
+    .
+data:37 rdf:type data:pemain;
+    data:id  "37";
+    data:nama "Alessandro Florenzi";
+
+    data:age "29";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "AS ROma";
+    data:season "2019/2020";
+     data:fee "loan";
+  
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/130365-1595925261.jpg?lm=1";
+    .
+data:38 rdf:type data:pemain;
+    data:id  "38";
+    data:nama "Thomas Meunier";
+
+    data:age "28";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "Sevilla";
+    data:season "2019/2020";
+     data:fee "free";
+   
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/100986-1523352221.jpg?lm=1";
+    .
+data:39 rdf:type data:pemain;
+    data:id  "39";
+    data:nama "Alexandre Letellier";
+;
+    data:age "29";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "S OrlÃ©ans";
+    data:season "2019/2020";
+     data:fee "loan";
+    
+   
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/93730-1517223295.jpg?lm=1";
+    .
+data:40 rdf:type data:pemain;
+    data:id  "40";
+    data:nama "Moise Kean";
+
+    data:age "20";
+    data:toClub  "Paris saint Germain";
+    data:fromClub "Everton";
+    data:season "2019/2020";
+     data:fee "loan";
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/364135-1545231665.jpg?lm=1";
+    .
+data:league1 rdf:type data:league;
+data:namaLeague "primier League".
+data:league2 rdf:type data:league;
+data:namaLeague "french ligue 1".
+data:league3 rdf:type data:league;
+data:namaLeague "bundesliga".
+
+data:1 data:onLeague data:league1 .
+data:2 data:onLeague data:league1 .
+data:3 data:onLeague data:league1 .
+data:4 data:onLeague data:league1 .
+data:5 data:onLeague data:league1 .
+data:6 data:onLeague data:league1 .
+data:7 data:onLeague data:league1 .
+data:8 data:onLeague data:league1 .
+data:9 data:onLeague data:league1 .
+data:10 data:onLeague data:league1 .
+data:11 data:onLeague data:league1 .
+data:12 data:onLeague data:league1 .
+data:13 data:onLeague data:league3 .
+data:14 data:onLeague data:league3 .
+data:15 data:onLeague data:league3 .
+data:16 data:onLeague data:league3 .
+data:17 data:onLeague data:league3 .
+data:18 data:onLeague data:league3 .
+data:19 data:onLeague data:league3 .
+data:20 data:onLeague data:league3 .
+data:21 data:onLeague data:league3 .
+data:22 data:onLeague data:league3 .
+data:23 data:onLeague data:league3 .
+data:24 data:onLeague data:league3 .
+data:25 data:onLeague data:league3 .
+data:26 data:onLeague data:league3 .
+data:27 data:onLeague data:league3 .
+data:28 data:onLeague data:league3 .
+data:29 data:onLeague data:league3 .
+data:30 data:onLeague data:league3 .
+data:31 data:onLeague data:league3 .
+data:32 data:onLeague data:league3 .
+data:33 data:onLeague data:league2 .
+data:34 data:onLeague data:league2 .
+data:35 data:onLeague data:league2 .
+data:36 data:onLeague data:league2 .
+data:37 data:onLeague data:league2 .
+data:38 data:onLeague data:league2 .
+data:39 data:onLeague data:league2 .
+data:40 data:onLeague data:league2 .
+
+data:posisi1 rdf:type data:posisi;
+data:namaPosisi "Attacking Midfield".
+
+data:posisi2 rdf:type data:posisi;
+data:namaPosisi "Defensive Midfield".
+
+data:posisi3 rdf:type data:posisi;
+data:namaPosisi "Centre-Back".
+
+data:posisi4 rdf:type data:posisi;
+data:namaPosisi "Right Winger".
+
+data:posisi5 rdf:type data:posisi;
+data:namaPosisi "Centre-Forward".
+
+data:posisi6 rdf:type data:posisi;
+data:namaPosisi "Goalkeeper".
+
+data:posisi7 rdf:type data:posisi;
+data:namaPosisi "Right-Back".
+
+data:posisi8 rdf:type data:posisi;
+data:namaPosisi "Left-Back".
+
+data:posisi9 rdf:type data:posisi;
+data:namaPosisi "Left Winger".
+
+data:posisi10 rdf:type data:posisi;
+data:namaPosisi "Central Midfield".
+
+data:1 data:onPosisi data:posisi1 .
+data:2 data:onPosisi data:posisi2 .
+data:3 data:onPosisi data:posisi3 .
+data:4 data:onPosisi data:posisi4 .
+data:5 data:onPosisi data:posisi5 .
+data:6 data:onPosisi data:posisi4 .
+data:7 data:onPosisi data:posisi6 .
+data:8 data:onPosisi data:posisi7 .
+data:9 data:onPosisi data:posisi1 .
+data:10 data:onPosisi data:posisi1 .
+data:11 data:onPosisi data:posisi8 .
+data:12 data:onPosisi data:posisi4 .
+data:13 data:onPosisi data:posisi9 .
+data:14 data:onPosisi data:posisi9 .
+data:15 data:onPosisi data:posisi2 .
+data:16 data:onPosisi data:posisi7 .
+data:17 data:onPosisi data:posisi4 .
+data:18 data:onPosisi data:posisi10 .
+data:19 data:onPosisi data:posisi2 .
+data:20 data:onPosisi data:posisi10 .
+data:21 data:onPosisi data:posisi7 .
+data:22 data:onPosisi data:posisi1 .
+data:23 data:onPosisi data:posisi3 .
+data:24 data:onPosisi data:posisi3 .
+data:25 data:onPosisi data:posisi1 .
+data:26 data:onPosisi data:posisi9 .
+data:27 data:onPosisi data:posisi1 .
+data:28 data:onPosisi data:posisi5 .
+data:29 data:onPosisi data:posisi7 .
+data:30 data:onPosisi data:posisi6 .
+data:31 data:onPosisi data:posisi2 .
+data:32 data:onPosisi data:posisi1 .
+data:33 data:onPosisi data:posisi1 .
+data:34 data:onPosisi data:posisi6 .
+data:35 data:onPosisi data:posisi2 .
+data:36 data:onPosisi data:posisi6 .
+data:37 data:onPosisi data:posisi7 .
+data:38 data:onPosisi data:posisi6 .
+data:39 data:onPosisi data:posisi7 .
+data:40 data:onPosisi data:posisi5 .
+
