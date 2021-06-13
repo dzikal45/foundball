@@ -7,6 +7,7 @@ import { Col } from 'reactstrap'
 import axios from "axios"
 
 const Detail = (props) => {
+    const [posisi, setPosisi] = useState([])
     const [data, setData] = useState(false)
     const { id } = props.match.params
     
@@ -20,7 +21,16 @@ const Detail = (props) => {
             .catch(error => {
                 console.log(error)
             })
-    }, [id])
+        axios
+            .get(`http://localhost:5000/api/recommendation/?posisi=${data.posisi}`)
+            .then(response => {
+                setPosisi(response.data.data)
+                console.log(response.data.data)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [id, data.posisi])
 
     return (
         <div>
@@ -89,6 +99,42 @@ const Detail = (props) => {
                                 </table>
                             </div>
                         </Col>
+
+                        <h2 style={{ marginTop: "100px" }}>Transfer dengan posisi yang sama</h2>
+                        <div className='row'>
+                            <div className='col-12'>
+                                <div className="result-card flex-wrap d-flex justify-content-center w-100" style={{ marginTop: "100px", marginBottom:"50px" }}>
+                                    {
+                                        posisi.map(e => (
+                                            e.id !== data.id ?
+                                            <div className='grid-item'>
+                                                <Link to={`/detail/${e.id}`} >
+                                                    <div className="card">
+                                                        <img className="card-img" src={e.urlFoto} style={{ width: "80%", }} />
+                                                        <div className="card-content">
+                                                            <h1 className="card-header" style={{ textAlign: "center" }} >{e.title}</h1>
+                                                        </div>
+                                                        <tbody style={{ fontSize:"20px", }}>
+                                                            <tr>
+                                                                <th scope="row">Nama</th>
+                                                                <td>{e.nama}</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <th scope="row">Klub</th>
+                                                                <td>{e.toClub}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            : null
+                                        ))
+                                    }
+                                </div>
+                            </div>
+                        </div>
                     </div> : null
             }
         </div>
